@@ -70,4 +70,4 @@
 
 # Certificado 📄
 <img src="https://github.com/gabrielgws/dankicode.com/blob/main/Curso_Webmaster_Front-End_Completo/certificado-front-end-danki-code.png" alt="Certificado" />
-aaaaaaaaaaaa [https://cursos.dankicode.com/api/certificados/1d9c4c53-748c-4c12-9699-f97fcb826531]
+https://cursos.dankicode.com/api/certificados/1d9c4c53-748c-4c12-9699-f97fcb826531
