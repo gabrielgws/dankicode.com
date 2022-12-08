@@ -1,0 +1,259 @@
+/**/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color:rgb(245,245,245);
+}
+
+.center{
+    max-width: 975px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+/**/
+
+/*header*/
+header{
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+
+header > .center{
+    display: flex;
+    max-width: 975px;
+    padding: 10px 0;
+}
+
+.logo-header{
+    width: 30%;
+}
+
+.logo-header img{
+    width:100%;
+    max-width: 100px;
+    margin-left: 20px;
+    top: 30%;
+    transform: translate(0, 30%);
+}
+
+.search{
+    text-align: center;
+    width: 50%;
+    padding-top: 10px;
+}
+
+.search-box{
+    display: inline-block;
+    position: relative;
+}
+
+.search-box input{
+    background-color: rgb(245,245,245);
+    padding: 5px 10px;
+    width: 230px;
+    text-align: center;
+    border:1px solid rgb(200,200,200);
+    border-radius: 3px;
+}
+
+.search-box input:focus{
+    outline: 0;
+}
+
+.search-box i{
+    position: absolute;
+    left: 60px;
+    top: 6px;
+    opacity: 0.3;
+}
+
+.notifications-icons{
+    width: 30%;
+    text-align: right;
+    padding: 8px 20px;
+}
+
+.notifications-icons a{
+    text-decoration: none;
+    color: black;
+    font-size:18px;
+    margin-right: 10px;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.notifications-icons .img-miniature{
+    width:25px;
+    height:25px;
+    border-radius:50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    border: 1px solid black;
+}
+/*end ~ header*/
+
+/*perfil-descricao*/
+.img-perfil-wraper{
+    float: left;
+    width: 50%;
+    padding: 0 50px;
+}
+
+.img-perfil{
+    background-size: cover;
+    width: 40%;
+    padding-top: 40%;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    border: 2px solid #ccc;
+}
+
+.texto-perfil{
+    float: left;
+    width: 50%;
+    position: relative;
+    left: -150px;
+}
+
+.nome-perfil span{
+    font-size: 28px;
+    position: relative;
+    top: 3px;
+}
+
+.nome-perfil a.btn-primario{
+    text-decoration: none;
+    color: black;
+    margin: 0 8px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding:  5px 10px;
+}
+
+.nome-perfil a.icon{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+    position: relative;
+    top: 3px;
+}
+
+.info-perfil{
+    position: relative;
+    left: -150px;
+}
+
+.info-perfil p{
+    display: inline-block;
+    margin: 20px 8px 0 0;
+}
+
+.descricao-perfil{
+    position: relative;
+    left: -150px;
+    display: inline-block;
+}
+
+.descricao-perfil h3{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.descricao-perfil p{
+    font-size: 16px;
+    font-weight: 300;
+}
+/*end ~ perfil-descricao*/
+
+/*feed*/
+section.feed{
+    padding: 60px 0;
+}
+
+.line-feed{
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+
+.single-line-name{
+    display: inline-block;
+    margin:  20px 30px;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.line-marcacao {
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    top: -21px;
+}
+/*end ~ feed*/
+
+/*publicacoes*/
+.publicacao-single{
+    float: left;
+    width: 33.3%;
+    padding-top: 33.3%;
+    border: 15px solid rgb(245,245,245);
+    background-size: 100% 100%;
+    cursor: pointer;
+} 
+/*end ~ publicacoes*/
+
+/*Aplicar estilo padrão para as abas*/
+#igtv{
+    display: none;
+}
+/*end ~ Aplicar estilo padrão para as abas*/
+
+/*Temporário*/
+/*
+    O ideial é trocar em cada elemento.
+*/
+
+section#salvos .publicacao-single{
+    background-image: none !important;
+    background-color: blue;
+}
+
+section#marcacoes .publicacao-single{
+    background-image: none !important;
+    background-color: green;
+}
+
+
+/*test*/
+.test{
+    width: 100%;
+    height: 1000px;
+}
+
+/*mobile*/
+
+@media screen and (max-width:768px){
+    .search-box{
+        display: none;
+    }
+    .notifications-icons{
+        padding-top:8px;
+        width: 70%;
+    }
+    
+}
