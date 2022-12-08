@@ -1,5 +1,5 @@
 # 🚀 dankicode.com 🚀 
-*( 📌 Curso Webmaster Front-End Completo | 💻 + de 405 aulas)*
+*( 📌 Curso Webmaster Front-End Completo | 💻 + de 405 aulas | ⌚ 81 horas)*
 
 ## Aprenda e domine absolutamente tudo sobre front-end e web design em apenas um curso! Tudo que você precisa para se tornar um(a) Desenvolvedor(a) Front-End. São mais de 600 aulas, 35 projetos práticos e 300 exercícios..
 
